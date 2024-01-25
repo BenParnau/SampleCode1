@@ -23,7 +23,7 @@ namespace NewConsole.Controllers
     public class HQController : ApplicationController
     {
 		
-		[AuthorityFilter(7)]
+	[AuthorityFilter(7)]
         [HttpPost]
         public ActionResult OutsideSourceForm(FormCollection form)
         {
